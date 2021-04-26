@@ -1,0 +1,17 @@
+We will be working on a healthcare related dataset and the aim here is to solve a Blood Cell Detection problem. 
+Our task is to detect all the Red Blood Cells (RBCs), White Blood Cells (WBCs), and Platelets in each image taken via 
+microscopic image readings. Below is a sample of what our final predictions should look like:
+
+
+
+The reason for choosing this dataset is that the density of RBCs, WBCs and Platelets in our blood stream provides a 
+lot of information about the immune system and hemoglobin. This can help us potentially identify whether a person is 
+healthy or not, and if any discrepancy is found in their blood, actions can be taken quickly to diagnose that.
+
+Manually looking at the sample via a microscope is a tedious process. And this is where Deep Learning models play such a vital role. They can classify and detect the blood cells from microscopic images with impressive precision.
+
+The full blood cell detection dataset for our challenge can be downloaded from here. I have modified the data a tiny bit for the scope of this article:
+
+The bounding boxes have been converted from the given .xml format to a .csv format
+I have also created the training and test set split on the entire dataset by randomly picking images for the split
+Note that we will be using the popular Keras framework with a TensorFlow backend in Python to train and build our model.
