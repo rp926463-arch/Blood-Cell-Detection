@@ -2,12 +2,11 @@
 ### Problem Statement:
 We will be working on a healthcare related dataset and the aim here is to solve a Blood Cell Detection problem. Our task is to detect all the Red Blood Cells (RBCs), White Blood Cells (WBCs), and Platelets in each image taken via 
 microscopic image readings. 
+
 The reason for choosing this dataset is that the density of RBCs, WBCs and Platelets in our blood stream provides a 
 lot of information about the immune system and hemoglobin. This can help us potentially identify whether a person is 
 healthy or not, and if any discrepancy is found in their blood, actions can be taken quickly to diagnose that.
 Manually looking at the sample via a microscope is a tedious process. And this is where Deep Learning models play such a vital role. They can classify and detect the blood cells from microscopic images with impressive precision.
-
-Below is a sample of what our final predictions should look like:
 
 #### Overview of dataset
 
@@ -19,7 +18,6 @@ Below is a sample of what our final predictions should look like:
   * WBC (White Blood Cell)
   * Platelets (Platelets)
 
-  ![image5](./image5.png)
 
 ### Data preparation
 Data preparation is important to use machine learning. In this project, the SSD algorithm for Object Detection is used.
