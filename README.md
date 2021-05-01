@@ -8,6 +8,9 @@ lot of information about the immune system and hemoglobin. This can help us pote
 healthy or not, and if any discrepancy is found in their blood, actions can be taken quickly to diagnose that.
 Manually looking at the sample via a microscope is a tedious process. And this is where Deep Learning models play such a vital role. They can classify and detect the blood cells from microscopic images with impressive precision.
 
+#### Configuration
+* We are using **SSD(single shot detector)** TFOD API to build this model
+
 #### Overview of dataset
 
 * You can see a example of the labeled cell image.
@@ -18,7 +21,11 @@ Manually looking at the sample via a microscope is a tedious process. And this i
   * WBC (White Blood Cell)
   * Platelets (Platelets)
 
-![Output](https://github.com/rp926463-arch/Blood-Cell-Detection/blob/main/research/data/BLOOD_CELLS_output/image5.png?raw=true)
+* Input Image:-
+  ![Input](https://github.com/rp926463-arch/Blood-Cell-Detection/blob/main/research/data/BLOOD_CELLS_input/image5.jpg?raw=true)
+
+* Output Image:-
+  ![Output](https://github.com/rp926463-arch/Blood-Cell-Detection/blob/main/research/data/BLOOD_CELLS_output/image5.png?raw=true)
 
 ### Data preparation
 Data preparation is important to use machine learning. In this project, the SSD algorithm for Object Detection is used.
