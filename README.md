@@ -18,6 +18,11 @@ Manually looking at the sample via a microscope is a tedious process. And this i
   * WBC (White Blood Cell)
   * Platelets (Platelets)
 
+* Input Image:-
+  ![Input](https://github.com/rp926463-arch/Blood-Cell-Detection/blob/main/research/data/BLOOD_CELLS_input/image5.jpg?raw=true)
+
+* Output Image:-
+  ![Output](https://github.com/rp926463-arch/Blood-Cell-Detection/blob/main/research/data/BLOOD_CELLS_output/image5.png?raw=true)
 
 ### Data preparation
 Data preparation is important to use machine learning. In this project, the SSD algorithm for Object Detection is used.
@@ -73,3 +78,4 @@ Data preparation is important to use machine learning. In this project, the SSD 
   ```
 
 
+"# Blood-Cell-Detection" 
