@@ -9,7 +9,7 @@ healthy or not, and if any discrepancy is found in their blood, actions can be t
 Manually looking at the sample via a microscope is a tedious process. And this is where Deep Learning models play such a vital role. They can classify and detect the blood cells from microscopic images with impressive precision.
 
 #### Configuration
-* We are using **SSD(single shot detector)** TFOD API to build this model
+* We are using **SSD(single shot detector)** [TFOD API](https://github.com/tensorflow/models) to build this model.
 
 #### Overview of dataset
 
